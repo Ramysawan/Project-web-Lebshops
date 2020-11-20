@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+  
+}
+
+.navbar-brand{
+  margin: right;
+  padding-left: 1%;
+}
+
+.jumbotron{
+  background-color: darkgray;
+  background-size: cover;
+  height: 100px;
+}
+
+.lead{
+color:aliceblue;
+}
+
+.display-3{
+color:aliceblue;
+}
+
+.card-img-top {
+  width: 253px;
+  height: 190px;
+  
+
+
+  
+}
+footer {
+  background-color:#323232;
+  color: white;
+  ;
+
+
+}
+.card{
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 5px 18px 18px 0px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-text{
+  color:black;
+}
+.card-title{
+  color:rgb(90,3,3);
+}
+a:link {
+
+  text-decoration: none;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 450px;
+}
+#ImageCarousel {
+  object-fit: cover;
+  vertical-align: middle;
+  border-style: none;
+  height: 70vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 90%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
